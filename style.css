@@ -32,10 +32,6 @@ body {
   display: block;
 }
 
-/* .page.active {
-  display: block;
-} */
-
 /* ===== HOME ===== */
 .hero {
   position: relative;
@@ -610,12 +606,10 @@ div.exp-img-label {
   line-height: 1.5;
 }
 
-/* GALLERY (experience — L13: siswa menambahkan CSS Grid) */
+/* EXPERIENCE SECTION (GRID PRACTICE) */
 .gallery-strip {
   background: var(--border);
-  /* ===== L13 STRIP-BACK =====
-     TODO (murid): jadikan galeri grid SERAGAM 3 kolom.
-     Properti: display, grid-template-columns (mis. repeat(3, 1fr)), gap */
+
 }
 
 .gallery-item {
