@@ -515,19 +515,19 @@ body {
 }
 
 /* EXPERIENCE SECTION (GRID PRACTICE) */
-.gallery-strip {
+.experience-strip {
   background: var(--border);
 
 }
 
-.gallery-item {
+.experience-item {
   position: relative;
   height: 220px;
   overflow: hidden;
   cursor: pointer;
 }
 
-.gallery-item img {
+.experience-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -535,11 +535,11 @@ body {
   transition: transform 0.5s ease;
 }
 
-.gallery-item:hover img {
+.experience-item:hover img {
   transform: scale(1.05);
 }
 
-.gallery-label {
+.experience-label {
   position: absolute;
   left: 0;
   right: 0;
@@ -1187,7 +1187,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .gallery-strip {
+  .experience-strip {
     grid-template-columns: 1fr 1fr;
   }
 
