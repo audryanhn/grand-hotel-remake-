@@ -522,7 +522,6 @@ body {
 
 .experience-item {
   position: relative;
-  height: 220px;
   overflow: hidden;
   cursor: pointer;
 }
