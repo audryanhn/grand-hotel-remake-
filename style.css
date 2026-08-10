@@ -531,12 +531,8 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.5s ease;
 }
 
-.experience-item:hover img {
-  transform: scale(1.05);
-}
 
 .experience-label {
   position: absolute;
