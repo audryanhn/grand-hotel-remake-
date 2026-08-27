@@ -161,8 +161,6 @@ nav {
     margin: 0 auto;
 }
 
-/* LEFT COLUMN */
-.booking-left {}
 
 .section-label-gold {
     font-size: 0.68rem;
@@ -517,9 +515,6 @@ nav {
     color: var(--gold-mid);
 }
 
-.breakdown .bd-val.discount {
-    color: #6fcf97;
-}
 
 /* NIGHTS INDICATOR */
 .nights-badge {
