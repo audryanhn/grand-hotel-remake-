@@ -723,6 +723,7 @@ body {
   grid-template-columns: 380px 1fr;
   overflow: hidden;
   transition: box-shadow 0.3s;
+  margin-bottom: 20px;
 }
 
 .room-list-card:hover {
@@ -732,6 +733,10 @@ body {
 .room-list-img {
   height: 280px;
   overflow: hidden;
+}
+
+.room-list-img img {
+  object-fit: cover;
 }
 
 .room-list-img-inner {
