@@ -120,8 +120,7 @@ body {
 .btn-gold {
   background: var(--gold);
   color: #fff;
-  padding: 14px 32px;
-  font-size: 0.8rem;
+
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -129,6 +128,8 @@ body {
   cursor: pointer;
   font-family: "Jost", sans-serif;
   transition: all 0.25s;
+  font-size: 0.75rem;
+  padding: 12px 24px
 }
 
 .btn-gold:hover {
@@ -398,17 +399,6 @@ body {
   background-size: 20px 20px;
 }
 
-.room-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  background: var(--gold);
-  color: #fff;
-  font-size: 0.65rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 5px 12px;
-}
 
 .room-body {
   padding: 1.5rem;
@@ -742,6 +732,8 @@ body {
 .room-list-img-inner {
   height: 100%;
   transition: transform 0.5s ease;
+  background: linear-gradient(135deg, #1c2b3a 0%, #2a3a4a 100%);
+  position: relative;
 }
 
 .room-list-card:hover .room-list-img-inner {
