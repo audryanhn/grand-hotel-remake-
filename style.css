@@ -175,72 +175,7 @@ body {
   background: linear-gradient(to bottom, rgba(184, 147, 74, 0.8), transparent);
 }
 
-/* BOOKING BAR */
-.booking-bar {
-  background: var(--ink);
-  padding: 0 5%;
-}
 
-.booking-inner {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-
-.book-field {
-  flex: 1;
-  padding: 1.2rem 1.5rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.book-field:last-of-type {
-  border-right: none;
-}
-
-.book-label {
-  font-size: 0.65rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 4px;
-}
-
-.book-input {
-  background: none;
-  border: none;
-  color: #fff;
-  font-family: "Jost", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 300;
-  width: 100%;
-  outline: none;
-  cursor: pointer;
-}
-
-.book-input::placeholder {
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.book-btn {
-  background: var(--gold);
-  color: #fff;
-  border: none;
-  padding: 0 2.5rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-family: "Jost", sans-serif;
-  height: 100%;
-  transition: background 0.2s;
-  white-space: nowrap;
-  min-height: 72px;
-}
-
-.book-btn:hover {
-  background: var(--gold-mid);
-}
 
 /* DIVIDER */
 .divider {
@@ -468,7 +403,7 @@ body {
   color: var(--muted);
 }
 
-.room-reserve {
+.room-details {
   background: none;
   border: 1px solid var(--gold);
   color: var(--gold);
@@ -481,7 +416,7 @@ body {
   transition: all 0.2s;
 }
 
-.room-reserve:hover {
+.room-details:hover {
   background: var(--gold);
   color: #fff;
 }
@@ -723,20 +658,16 @@ body {
 .room-list-img {
   height: 280px;
   overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
 .room-list-img img {
   object-fit: cover;
+
 }
 
-.room-list-img-inner {
-  height: 100%;
-  transition: transform 0.5s ease;
-  background: linear-gradient(135deg, #1c2b3a 0%, #2a3a4a 100%);
-  position: relative;
-}
 
-.room-list-card:hover .room-list-img-inner {
+.room-list-card .room-list-img:hover {
   transform: scale(1.04);
 }
 
