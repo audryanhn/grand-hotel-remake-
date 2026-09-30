@@ -1298,7 +1298,7 @@ nav {
   right: 16px;
 }
 
-.room-badge-thumb {
+.room-badge {
   position: absolute;
   top: 14px;
   left: 14px;
@@ -1307,8 +1307,9 @@ nav {
   font-size: 0.65rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 5px 14px;
+  padding: 5px 12px;
 }
+
 
 .room-summary-body {
   padding: 1.5rem;
