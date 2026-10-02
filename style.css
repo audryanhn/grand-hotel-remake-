@@ -1880,7 +1880,7 @@ nav {
   line-height: 1.08;
 }
 
-.detail-copy>p:last-of-type {
+.detail-info>p:last-of-type {
   max-width: 690px;
   margin-top: 1.5rem;
   color: var(--muted);
