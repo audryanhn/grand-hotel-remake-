@@ -129,7 +129,7 @@ body {
   font-family: "Jost", sans-serif;
   transition: all 0.25s;
   font-size: 0.75rem;
-  padding: 12px 24px
+  padding: 12px 24px;
 }
 
 .btn-gold:hover {
@@ -174,8 +174,6 @@ body {
   height: 40px;
   background: linear-gradient(to bottom, rgba(184, 147, 74, 0.8), transparent);
 }
-
-
 
 /* DIVIDER */
 .divider {
@@ -233,7 +231,6 @@ body {
 
 /* Filter Button CSS Start */
 
-
 /* Filter Button CSS End */
 
 /* ROOMS */
@@ -284,33 +281,8 @@ body {
   grid-template-columns: 1fr 1fr;
   max-width: 1500px;
   max-height: 750px;
-  margin: 0 auto
+  margin: 0 auto;
 }
-
-.room-img {
-  height: 100%;
-  overflow: hidden;
-}
-
-.room-img-inner {
-  min-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 200px;
-}
-
-.room-img-inner .room-pattern {
-  position: absolute;
-  inset: 0;
-  opacity: 0.12;
-  background-image: radial-gradient(circle at 2px 2px,
-      white 1px,
-      transparent 0);
-  background-size: 20px 20px;
-}
-
 
 .room-body {
   padding: 1.5rem;
@@ -422,7 +394,6 @@ body {
 /* EXPERIENCE SECTION (GRID PRACTICE) */
 .experience-strip {
   background: var(--border);
-
 }
 
 .experience-item {
@@ -437,7 +408,6 @@ body {
   object-fit: cover;
   display: block;
 }
-
 
 .experience-label {
   position: absolute;
@@ -641,9 +611,7 @@ body {
 
 .room-list-img img {
   object-fit: cover;
-
 }
-
 
 .room-list-card .room-list-img:hover {
   transform: scale(1.04);
@@ -1062,7 +1030,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-
   .room-card {
     display: block;
   }
@@ -1219,7 +1186,6 @@ nav {
   margin: 0 auto;
 }
 
-
 .section-label-gold {
   font-size: 0.68rem;
   letter-spacing: 3px;
@@ -1260,9 +1226,11 @@ nav {
   position: absolute;
   inset: 0;
   opacity: 0.12;
-  background-image: radial-gradient(circle at 2px 2px,
-      white 1px,
-      transparent 0);
+  background-image: radial-gradient(
+    circle at 2px 2px,
+    white 1px,
+    transparent 0
+  );
   background-size: 20px 20px;
 }
 
@@ -1287,7 +1255,6 @@ nav {
   text-transform: uppercase;
   padding: 5px 12px;
 }
-
 
 .room-summary-body {
   padding: 1.5rem;
@@ -1531,7 +1498,6 @@ nav {
   color: var(--gold-mid);
 }
 
-
 /* NIGHTS INDICATOR */
 .nights-badge {
   display: inline-flex;
@@ -1732,7 +1698,6 @@ nav {
   }
 }
 
-
 /* =============== DETAIL PAGE ================== */
 .room-details-link,
 .detail-reserve,
@@ -1752,7 +1717,7 @@ nav {
   background: var(--navy);
 }
 
-.detail-hero>img {
+.detail-hero > img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -1860,7 +1825,7 @@ nav {
   line-height: 1.08;
 }
 
-.detail-info>p:last-of-type {
+.detail-info > p:last-of-type {
   max-width: 690px;
   margin-top: 1.5rem;
   color: var(--muted);
@@ -1983,7 +1948,7 @@ nav {
   margin-bottom: 3rem;
 }
 
-.detail-section-heading>p {
+.detail-section-heading > p {
   max-width: 280px;
   padding-bottom: 0.5rem;
   color: var(--muted);
@@ -2119,7 +2084,7 @@ nav {
     display: block;
   }
 
-  .detail-section-heading>p {
+  .detail-section-heading > p {
     margin-top: 1rem;
   }
 
@@ -2139,7 +2104,7 @@ nav {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .detail-hero>img {
+  .detail-hero > img {
     animation: none;
   }
 }
